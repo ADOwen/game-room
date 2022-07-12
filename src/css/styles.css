@@ -1,0 +1,88 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+#main {
+  width: 100%;
+  height: calc(100vh - 56px);
+}
+
+#root canvas {
+  border-radius: 5px;
+  position: absolute;
+  right: 12px;
+  top: 64px;
+}
+
+.left-container-with-title {
+  width: calc(100% - 856px);
+  height: 100%;
+  left: 12px;
+  top: 16px;
+  position: absolute;
+  overflow: hidden;
+} 
+
+.section-title {
+  height: 48px;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.scroll-container {
+  width: 100%;
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+.left-container {
+  width: calc(100% - 856px);
+  position: absolute;
+  top: 64px;
+}
+
+.textArea {
+  resize: none;
+}
+
+.align-end{
+  justify-self: flex-end;
+}
+
+.nav-link, .cart {
+  padding: 0;
+}
+
+.cart-wrapper {
+  position:relative;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: white;
+  border: 1px solid gray;
+}
+
+.cart-icon {
+  color: black;
+}
+
+.cart-badge {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: rgb(126, 18, 18);
+  color: white;
+  font-size: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 22px;
+  top: -2px;
+}
